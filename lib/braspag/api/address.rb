@@ -37,7 +37,7 @@ module Braspag
             end
         end
 
-        private
+        # private
         def as_json(options={})
             {
                 Street: @street,

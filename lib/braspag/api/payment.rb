@@ -99,7 +99,7 @@ module Braspag
             end
         end
 
-        private
+        # private
         def as_json(options={})
             {
                 ServiceTaxAmount: @service_tax_amount,
